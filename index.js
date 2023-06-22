@@ -42,7 +42,7 @@ onValue(shoppingListInDB, function (snapshot) {
       appendItemToShoppingListEl(currentItem);
     }
   } else {
-    shoppingListEl.innerHTML = "No items here... yet";
+    shoppingListEl.innerHTML = "No task... yet";
   }
 });
 
